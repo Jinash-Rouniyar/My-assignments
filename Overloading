@@ -1,0 +1,29 @@
+public class Track {
+    public static void main(String[] args) {
+        Maps myMamps = new Maps();
+        myMaps.location();
+        myMaps.location(23.345f);
+        myMaps.location(21.5556f,34.4555f);
+        myMaps.location("Asia");
+        
+
+    }
+}
+class Maps
+{
+    void location() { 
+        System.out.println("Search random locations");
+    }
+
+    void location(float latitiude) {
+        System.out.println("Search based on latitude");
+    }
+
+    void location(float latitude, float longitude) {
+        System.out.println("Precise search based on latitude and longitude");
+    }
+
+    void location(String place) {
+        System.out.println("Search based on location");
+    }
+}
