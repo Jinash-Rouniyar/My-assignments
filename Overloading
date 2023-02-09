@@ -1,6 +1,6 @@
 public class Track {
     public static void main(String[] args) {
-        Maps myMamps = new Maps();
+        Maps myMaps = new Maps();
         myMaps.location();
         myMaps.location(23.345f);
         myMaps.location(21.5556f,34.4555f);
