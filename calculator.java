@@ -11,10 +11,10 @@ class Interest{
 	private double p;
 	private double t;
 	private double r;
-	Interest(double a, double b, double c){
-		p=a;
-		t=b;
-		r=c;
+	Interest(double p, double t, double r){
+		this.p=p;
+		this.t=t;
+		this.r=r;
 	}
 	public void SimpleInterest() {
 		System.out.println("The simple interest is: " + (p*t*r)/100);
