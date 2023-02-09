@@ -8,8 +8,8 @@ public class Salary {
 }
 class SalaryClass{
 	private float s;
-	public void setValue(int sal) {
-		s = sal;
+	public void setValue(int s) {
+		this.s = s;
 		printValue();
 	}
 	public void printValue() {
